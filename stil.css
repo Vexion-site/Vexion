@@ -33,17 +33,10 @@ img {
 .rotate:hover {
  transform: scaleX(-1);
 }
-/*div.img {
-  display: inline; 
-  max-width: 650px;
-  padding: 5px;
-  margin: 10px 0 5px 0;
-  border: 1px solid #ccc;  
-}
-*/
+
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 15px;
+    grid-gap: 25px;
 }
