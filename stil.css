@@ -23,4 +23,7 @@ h1 {
   img {
   max-width: 55%;
 }
+img:hover {
+  transform: scaleX(-1);
+}
 }
