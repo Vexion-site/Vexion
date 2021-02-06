@@ -9,13 +9,8 @@ let Stamen_Toner = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/
    maxZoom: 20,
    ext: 'png'
 });
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-		maxZoom: 18,
-		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		id: 'mapbox/streets-v11',
-		tileSize: 512,
-		zoomOffset: -1
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 // map.addLayer(Stamen_Toner);
 
@@ -23,3 +18,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 let marker = L.marker([44.799722,20.405278], {title: 'VEXION LOCATION'});
 marker.bindPopup("<span clas=\"map-popup\">&#9762; vexion</span>");
 marker.addTo(map);
+
+let auxmarker = L.marker([44.799722,20.405278], {title: 'VEXION LOCATION'});
+auxmarker.bindPopup("<span clas=\"map-popup\">&#9762; vexion</span>");
+auxmarker.addTo(map);
