@@ -22,7 +22,7 @@ h1 {
   img {
   max-width: 55%;
 }
-img:hover {
+.rotate:hover {
   transform: scaleX(-1);
 }
 }
