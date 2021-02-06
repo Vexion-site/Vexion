@@ -19,7 +19,7 @@ var pyramidicon = L.icon({
 
     iconSize:     [64, 77], // size of the icon
    
-    iconAnchor:   [32, 0], // point of the icon which will correspond to marker's location
+    iconAnchor:   [32, -77], // point of the icon which will correspond to marker's location
   
     popupAnchor:  [0, 38] // point from which the popup should open relative to the iconAnchor
 
