@@ -29,6 +29,6 @@ let marker = L.marker([44.799722,20.405278], {icon: pyramidicon});
 marker.bindPopup("<span clas=\"map-popup\">&#9762; vexion</span>");
 marker.addTo(map);
 
-let auxmarker = L.marker([44.804722,20.404167], {color:"cyan"});
+let auxmarker = L.marker([44.804722,20.404167], {icon: pyramidicon});
 auxmarker.bindPopup("<span clas=\"map-popup\">&#9762; vexion</span>");
 auxmarker.addTo(map);
