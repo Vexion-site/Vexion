@@ -21,10 +21,13 @@ h1 {
   img {
   max-width: 100vw;
 }
-.rotate:hover {
- transform: scaleX(-1);
- position: absolute;
+.rotate {
+  position: absolute;
  left: 25px;
  margin-top: 35px;
+} 
+  .rotate:hover {
+ transform: scaleX(-1);
+
 }
 }
