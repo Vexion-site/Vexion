@@ -25,7 +25,7 @@ let pyramidicon = L.icon({
 });
 
 let auxicon = L.icon({
-    iconUrl: 'images/markeri/marker1.png',
+    iconUrl: 'images/markeri/iconaux.png',
  
 
     iconSize:     [64, 77], // size of the icon
