@@ -21,5 +21,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 let marker = L.marker([45, 20], {title: 'VEXION LOCATION'});
-marker.bindPopup("<b>vexion</b><br>");
+marker.bindPopup("<b>&#9762; vexion</b><br>");
 marker.addTo(map);
