@@ -33,10 +33,12 @@ img {
 .rotate:hover {
  transform: scaleX(-1);
 }
-div.img {
+/*div.img {
   display: inline; 
   max-width: 650px;
   padding: 5px;
   margin: 10px 0 5px 0;
   border: 1px solid #ccc;  
 }
+*/
+.gallery {display: grid;}
