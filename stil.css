@@ -49,6 +49,7 @@ h1 {
 
 /* Mapa css*/
 #mapid { 
-	height: 180px; 
+	width:100vw;
+	height:auto;
 }
 
