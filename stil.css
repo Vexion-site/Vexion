@@ -38,5 +38,5 @@ img {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 25px;
+    grid-gap: 5px;
 }
