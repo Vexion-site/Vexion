@@ -1,6 +1,8 @@
 body {
   background-color: #f2f2f2;
+  font-family: Gill Sans MT;
 }
+
 
 .container {
   margin-left: 25px; 
@@ -8,18 +10,6 @@ body {
 
 .linker{
 	display: flex;
-}
-
-h1 {
-font-family: Gill Sans MT;
-}
-
-p {
-font-family: Gill Sans MT;
-}
-
-li {
-font-family: Gill Sans MT;
 }
 
 h1 {
