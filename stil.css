@@ -10,13 +10,16 @@ body {
 
 .linker{
 	display: flex;
+	flex-direction:column;
 }
 
 h1 {
   color: black;
   
 }
-
+.links-title::before{
+	content: '\269B';
+}
 img {
   max-width: 100vw;
 }
