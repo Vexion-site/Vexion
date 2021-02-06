@@ -10,3 +10,6 @@ let Stamen_Toner = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/
    ext: 'png'
 });
 map.addLayer(Stamen_Toner);
+
+let marker = L.marker([45, 20]);
+marker.addTo(map);
