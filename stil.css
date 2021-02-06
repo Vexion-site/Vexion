@@ -40,3 +40,6 @@ img {
     grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 5px;
 }
+
+.gallery.img {max-width: 230px; height: auto;}
+
