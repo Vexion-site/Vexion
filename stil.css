@@ -22,6 +22,9 @@ h1 {
   max-width: 55%;
 }
 .rotate:hover {
-  transform: scaleX(-1);
+ transform: scaleX(-1);
+ position: absolute;
+ left: 25px;
+ margin-top: 35px;
 }
 }
