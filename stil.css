@@ -18,7 +18,7 @@ h1 {
   
 }
 .links-title::before{
-	content: '\269B';
+	content: '\2622';
 }
 img {
   max-width: 100vw;
