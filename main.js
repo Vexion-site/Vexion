@@ -11,5 +11,5 @@ let Stamen_Toner = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/
 });
 map.addLayer(Stamen_Toner);
 
-let marker = L.marker([45, 20]);
+let marker = L.marker([45, 20], {'title': 'VEXION LOCATION'});
 marker.addTo(map);
