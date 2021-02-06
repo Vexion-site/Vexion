@@ -13,7 +13,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 // map.addLayer(Stamen_Toner);
-var pyramidicon = L.icon({
+let pyramidicon = L.icon({
     iconUrl: 'images/markeri/marker1.png',
  
 
