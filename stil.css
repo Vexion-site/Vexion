@@ -48,6 +48,12 @@ h1 {
    
 }
 
+.linker{
+	position: relative;
+	
+	}
+	
+
 /* Mapa css*/
 #mapid { 
 	width:600px;
